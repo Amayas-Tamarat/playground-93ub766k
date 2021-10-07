@@ -1,12 +1,17 @@
-title: Swift Project
+title: Projet Java Script
 plan:
-- title: Swift on Tech.io
+- title: Welcome
   statement: markdowns/welcome.md
-- title: test
-  statement: markdowns/test.md
+  
+- title: Pourquoi
+  statement: markdowns/pourquoi.md
+    
+- title: page3
+  statement: markdowns/page3.md
+  
 projects:
-  first-project:
-    root: /swift-template
+  nodejs:
+    root: /nodejs-project
     runner:
-      name: swift
-      version: 3.1.0
+      name: techio/node-npm-runner
+      version: latest
